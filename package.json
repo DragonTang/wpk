@@ -1,0 +1,26 @@
+{
+  "name": "wpk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./build/dev-server.js",
+    "build": "node ./build/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "lodash": "^4.17.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
